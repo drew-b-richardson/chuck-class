@@ -113,7 +113,7 @@ DORIAN   @=> scale;
 octave * 12 + key => transpose;
 
 0 => int numTimesThrough;
-//second osc playes root of d dorian
+//second osc playes root of d doriant
 Math.mtof(scale[0] + transpose) => s2.freq;
 while(now < finishTime)
 {
